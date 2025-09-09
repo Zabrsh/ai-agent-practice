@@ -1,0 +1,18 @@
+[project]
+name = "scholarship-hunter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "flask>=3.1.2",
+    "google-genai==1.12.1",
+    "python-dotenv==1.1.0",
+    "requests>=2.32.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "scholarship-hunter",
+]
